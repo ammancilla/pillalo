@@ -60,7 +60,7 @@ $('form').on('submit', function(e){
           )
           times = []
           $.each(routes, function(i, route){
-            if(i > 9) {
+            if(i > 6) {
               return false;
             }
             if(route['departure_at'] != null && route['departure_at'] > route['scheduled_at']){
